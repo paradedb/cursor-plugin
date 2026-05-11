@@ -1,0 +1,11 @@
+{
+  "name": "paradedb",
+  "displayName": "ParadeDB",
+  "version": "0.1.0",
+  "description": "Teach agents how to use ParadeDB effectively",
+  "author": {
+    "name": "ParadeDB"
+  },
+  "logo": "assets/logo.svg"
+}
+
