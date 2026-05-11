@@ -18,6 +18,11 @@
       "name": "starter-advanced",
       "source": "./plugins/starter-advanced",
       "description": "Full-featured plugin with rules, skills, agents, commands, hooks, and MCP"
+    },
+    {
+      "name": "paradedb",
+      "source": "./plugins/paradedb",
+      "description": "Teach agents how to use ParadeDB effectively"
     }
   ]
 }
