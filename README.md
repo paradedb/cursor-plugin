@@ -1,33 +1,21 @@
-# Cursor plugin template
+# ParadeDB Cursor plugin
 
-Build and publish Cursor Marketplace plugins from a single repo.
+Teach agents how to use ParadeDB effectively.
 
-Two starter plugins are included:
+## Structure
 
-- **starter-simple**: rules and skills only
-- **starter-advanced**: rules, skills, agents, commands, hooks, MCP, and scripts
+- `.cursor-plugin/plugin.json`: plugin metadata
+- `.cursor-plugin/marketplace.json`: marketplace metadata pointing at this plugin
+- `mcp.json`: ParadeDB docs MCP server
+- `assets/logo.svg`: marketplace logo
 
-## Getting started
-
-[Use this template](https://github.com/cursor/plugin-template/generate) to create a new repository, then customize:
-
-1. `.cursor-plugin/marketplace.json`: set marketplace `name`, `owner`, and `metadata`.
-2. `plugins/*/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
-3. Replace placeholder rules, skills, agents, commands, hooks, scripts, and logos.
-
-To add more plugins, see `docs/add-a-plugin.md`.
-
-## Single plugin vs multi-plugin
-
-This template defaults to **multi-plugin** (multiple plugins in one repo).
-
-For a **single plugin**, move your plugin folder contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
+The plugin files live at the repository root. The marketplace manifest points to `"."` so the template validator checks the same root plugin layout. To add more plugins later, see `docs/add-a-plugin.md`.
 
 ## Submission checklist
 
-- Each plugin has a valid `.cursor-plugin/plugin.json`.
+- The plugin has a valid `.cursor-plugin/plugin.json`.
+- `.cursor-plugin/marketplace.json` maps to the root plugin.
 - Plugin names are unique, lowercase, and kebab-case.
-- `.cursor-plugin/marketplace.json` entries map to real plugin folders.
 - All frontmatter metadata is present in rule, skill, agent, and command files.
 - Logos are committed and referenced with relative paths.
 - `node scripts/validate-template.mjs` passes.

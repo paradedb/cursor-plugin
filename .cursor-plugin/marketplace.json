@@ -1,17 +1,17 @@
 {
-  "name": "cursor-plugin-starters",
+  "name": "cursor-plugin-paradedb",
   "owner": {
-    "name": "Your Org",
-    "email": "plugins@example.com"
+    "name": "ParadeDB",
+    "email": "hello@paradedb.com"
   },
   "metadata": {
-    "description": "Starter marketplace template for Cursor plugins",
+    "description": "ParadeDB Cursor plugin",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "paradedb",
-      "source": "./plugins/paradedb",
+      "source": ".",
       "description": "Teach agents how to use ParadeDB effectively"
     }
   ]
