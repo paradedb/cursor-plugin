@@ -2,7 +2,7 @@
   "name": "paradedb",
   "displayName": "ParadeDB",
   "version": "0.1.0",
-  "description": "Teach agents how to use ParadeDB effectively",
+  "description": "ParadeDB offers Elastic-quality search in Postgres including BM25 scoring, Top K, highlighting, tokenizers, aggregates, and joins. This plugin teaches agents how to use ParadeDB effectively by giving them access to the documentation MCP server.",
   "author": {
     "name": "ParadeDB"
   },
