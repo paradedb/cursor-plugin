@@ -2,7 +2,7 @@
   "name": "paradedb",
   "displayName": "ParadeDB",
   "version": "0.1.1",
-  "description": "ParadeDB adds Elastic-quality full-text search, vector retrieval, and aggregations to Postgres, with no second system to deploy and nothing to sync. This plugin teaches agents how to use ParadeDB effectively by giving them access to the documentation MCP server.",
+  "description": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Give Cursor access to ParadeDB documentation, tutorials, and examples through the ParadeDB MCP server.",
   "author": {
     "name": "ParadeDB"
   },
