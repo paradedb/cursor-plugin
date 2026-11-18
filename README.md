@@ -26,4 +26,4 @@
 
 # ParadeDB Cursor plugin
 
-Teach agents how to use ParadeDB effectively.
+The ParadeDB Cursor plugin lets your agent search and read ParadeDB documentation, tutorials, and examples through the ParadeDB MCP server.
